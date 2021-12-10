@@ -1,9 +1,10 @@
-name: test_deploy
+name: Test and Deploy
 
 on:
+  push:
   pull_request:
 
- jobs:
+jobs:
    test:
      name: Test
      runs-on: ubuntu-latest
